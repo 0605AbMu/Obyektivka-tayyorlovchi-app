@@ -1,0 +1,1 @@
+# Obyektivka-tayyorlovchi-app
