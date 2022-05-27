@@ -1,0 +1,207 @@
+﻿
+/*!
+This file is part of DecSoft App Builder.
+Visit our website for license information.
+Copyright ©2022 DecSoft. All rights reserved.
+Visit our website at: https://www.decsoftutils.com/
+
+*/
+
+
+html, body { width: 1086px; height: 960px; }
+
+#view1 #label1 { position: absolute; top: 0.10%; left: 41.25%; width: 18.42%; height: 2.08%; }
+#view1 #label1 {font-size: 25px; font-weight: bold; text-align: center;}
+
+#view1 #label2 { position: absolute; top: 3.33%; left: 0.74%; width: 18.42%; height: 2.08%; }
+
+#view1 #input1 { position: absolute; top: 5.83%; left: 0.74%; width: 33.15%; height: 3.33%; }
+
+#view1 #label3 { position: absolute; top: 10.00%; left: 0.74%; width: 18.42%; height: 2.08%; }
+
+#view1 #input3 { position: absolute; top: 12.50%; left: 0.74%; width: 33.15%; height: 3.33%; }
+
+#view1 #label5 { position: absolute; top: 3.33%; left: 36.83%; width: 18.42%; height: 2.08%; }
+
+#view1 #input5 { position: absolute; top: 0.83%; left: 61.14%; width: 16.21%; height: 3.33%; }
+
+#view1 #label6 { position: absolute; top: 16.67%; left: 0.74%; width: 18.42%; height: 2.08%; }
+
+#view1 #select1 { position: absolute; top: 19.17%; left: 0.74%; width: 33.15%; height: 3.33%; }
+
+#view1 #select2 { position: absolute; top: 12.50%; left: 36.83%; width: 33.15%; height: 3.33%; }
+
+#view1 #label7 { position: absolute; top: 10.00%; left: 36.83%; width: 18.42%; height: 2.08%; }
+
+#view1 #container1 { position: absolute; top: 19.17%; left: 36.83%; width: 33.15%; height: 21.46%; }
+
+#view1 #table2 { position: absolute; top: 40.78%; left: 0.00%; width: 100.00%; height: 58.74%; }
+
+#view1 #input8 { position: absolute; top: 24.27%; left: 0.56%; width: 28.89%; height: 15.53%; }
+
+#view1 #input9 { position: absolute; top: 24.27%; left: 29.72%; width: 45.00%; height: 15.53%; }
+
+#view1 #button3 { position: absolute; top: 24.27%; left: 75.56%; width: 7.78%; height: 15.53%; }
+#view1 #button3 {color: #f1f1f1;}
+
+#view1 #button4 { position: absolute; top: 24.27%; left: 91.67%; width: 7.78%; height: 15.53%; }
+#view1 #button4 {color: #f1f1f1;}
+
+#view1 #label4 { position: absolute; top: 11.65%; left: 0.56%; width: 28.89%; height: 11.65%; }
+
+#view1 #button14 { position: absolute; top: 24.27%; left: 83.61%; width: 7.78%; height: 15.53%; }
+#view1 #button14 {color: #f1f1f1;}
+
+#view1 #label8 { position: absolute; top: 16.67%; left: 36.83%; width: 18.42%; height: 2.08%; }
+
+#view1 #input2 { position: absolute; top: 25.73%; left: 0.74%; width: 33.15%; height: 3.33%; }
+
+#view1 #label10 { position: absolute; top: 23.23%; left: 0.74%; width: 22.84%; height: 2.08%; }
+
+#view1 #select3 { position: absolute; top: 32.29%; left: 0.74%; width: 33.15%; height: 3.33%; }
+
+#view1 #label12 { position: absolute; top: 29.79%; left: 0.74%; width: 18.42%; height: 2.08%; }
+
+#view1 #input4 { position: absolute; top: 38.33%; left: 0.74%; width: 33.15%; height: 3.33%; }
+
+#view1 #label11 { position: absolute; top: 35.83%; left: 0.74%; width: 22.84%; height: 2.08%; }
+
+#view1 #select4 { position: absolute; top: 45.00%; left: 0.74%; width: 33.15%; height: 3.33%; }
+
+#view1 #label13 { position: absolute; top: 42.50%; left: 0.74%; width: 18.42%; height: 2.08%; }
+
+#view1 #input6 { position: absolute; top: 45.00%; left: 36.83%; width: 33.15%; height: 3.33%; }
+
+#view1 #label14 { position: absolute; top: 42.50%; left: 36.83%; width: 22.84%; height: 2.08%; }
+
+#view1 #container2 { position: absolute; top: 50.83%; left: 0.74%; width: 33.15%; height: 22.08%; }
+
+#view1 #table1 { position: absolute; top: 33.96%; left: 0.00%; width: 100.00%; height: 64.15%; }
+
+#view1 #input7 { position: absolute; top: 17.45%; left: 0.00%; width: 28.89%; height: 15.09%; }
+
+#view1 #input10 { position: absolute; top: 17.45%; left: 29.72%; width: 45.83%; height: 15.09%; }
+
+#view1 #button1 { position: absolute; top: 17.45%; left: 76.94%; width: 6.67%; height: 15.09%; }
+#view1 #button1 {color: #f1f1f1;}
+
+#view1 #button2 { position: absolute; top: 17.45%; left: 91.94%; width: 7.78%; height: 15.09%; }
+#view1 #button2 {color: #f1f1f1;}
+
+#view1 #label15 { position: absolute; top: 6.13%; left: 0.83%; width: 28.89%; height: 11.32%; }
+
+#view1 #label21 { position: absolute; top: 6.13%; left: 31.11%; width: 35.56%; height: 11.32%; }
+
+#view1 #button5 { position: absolute; top: 17.45%; left: 84.44%; width: 6.67%; height: 15.09%; }
+#view1 #button5 {color: #f1f1f1;}
+
+#view1 #label16 { position: absolute; top: 48.75%; left: 0.74%; width: 30.94%; height: 2.08%; }
+
+#view1 #label23 { position: absolute; top: 50.21%; left: 36.83%; width: 33.15%; height: 5.83%; }
+
+#view1 #container3 { position: absolute; top: 56.67%; left: 36.83%; width: 33.15%; height: 6.46%; }
+
+#view1 #input11 { position: absolute; top: 41.94%; left: 0.00%; width: 13.33%; height: 51.61%; }
+
+#view1 #input13 { position: absolute; top: 41.94%; left: 15.56%; width: 13.33%; height: 51.61%; }
+
+#view1 #label24 { position: absolute; top: 0.00%; left: 1.11%; width: 27.78%; height: 32.26%; }
+
+#view1 #input14 { position: absolute; top: 41.94%; left: 31.11%; width: 68.89%; height: 51.61%; }
+
+#view1 #label25 { position: absolute; top: 0.00%; left: 31.11%; width: 60.00%; height: 32.26%; }
+
+#view1 #label26 { position: absolute; top: 48.75%; left: 0.74%; width: 30.94%; height: 2.08%; }
+
+#view1 #container5 { position: absolute; top: 75.83%; left: 0.74%; width: 33.15%; height: 23.33%; }
+
+#view1 #table4 { position: absolute; top: 32.14%; left: 0.00%; width: 100.00%; height: 67.86%; }
+
+#view1 #button7 { position: absolute; top: 15.63%; left: 77.22%; width: 6.67%; height: 14.29%; }
+#view1 #button7 {color: #f1f1f1;}
+
+#view1 #button8 { position: absolute; top: 15.63%; left: 91.67%; width: 7.50%; height: 14.29%; }
+#view1 #button8 {color: #f1f1f1;}
+
+#view1 #label31 { position: absolute; top: 5.80%; left: 0.83%; width: 28.89%; height: 10.71%; }
+
+#view1 #label34 { position: absolute; top: 5.80%; left: 29.44%; width: 35.56%; height: 10.71%; }
+
+#view1 #input19 { position: absolute; top: 15.63%; left: 29.72%; width: 43.33%; height: 14.29%; }
+
+#view1 #input20 { position: absolute; top: 15.63%; left: 15.56%; width: 13.33%; height: 14.29%; }
+
+#view1 #input21 { position: absolute; top: 15.63%; left: 0.28%; width: 13.33%; height: 14.29%; }
+
+#view1 #button16 { position: absolute; top: 15.63%; left: 84.44%; width: 6.67%; height: 14.29%; }
+#view1 #button16 {color: #f1f1f1;}
+
+#view1 #label35 { position: absolute; top: 73.33%; left: 0.74%; width: 30.94%; height: 2.08%; }
+
+#view1 #container6 { position: absolute; top: 65.83%; left: 36.83%; width: 62.62%; height: 32.50%; }
+
+#view1 #table5 { position: absolute; top: 38.46%; left: 0.00%; width: 100.00%; height: 61.54%; }
+
+#view1 #button9 { position: absolute; top: 25.64%; left: 85.88%; width: 4.12%; height: 10.26%; }
+#view1 #button9 {color: #f1f1f1;}
+
+#view1 #button10 { position: absolute; top: 25.64%; left: 95.29%; width: 4.12%; height: 10.26%; }
+#view1 #button10 {color: #f1f1f1;}
+
+#view1 #label36 { position: absolute; top: 0.00%; left: 0.59%; width: 15.29%; height: 7.69%; }
+
+#view1 #input22 { position: absolute; top: 8.33%; left: 13.38%; width: 30.59%; height: 10.26%; }
+
+#view1 #input24 { position: absolute; top: 8.33%; left: 46.62%; width: 7.06%; height: 10.26%; }
+
+#view1 #select5 { position: absolute; top: 8.33%; left: 0.59%; width: 11.62%; height: 10.26%; }
+
+#view1 #input25 { position: absolute; top: 8.33%; left: 78.38%; width: 20.00%; height: 10.26%; }
+
+#view1 #label41 { position: absolute; top: 0.96%; left: 47.21%; width: 30.59%; height: 6.73%; }
+
+#view1 #label42 { position: absolute; top: 18.91%; left: 0.59%; width: 37.65%; height: 6.73%; }
+
+#view1 #input27 { position: absolute; top: 25.64%; left: 0.59%; width: 18.82%; height: 10.26%; }
+
+#view1 #input29 { position: absolute; top: 25.64%; left: 19.56%; width: 18.82%; height: 10.26%; }
+
+#view1 #label43 { position: absolute; top: 18.91%; left: 39.26%; width: 21.18%; height: 5.77%; }
+
+#view1 #select11 { position: absolute; top: 8.33%; left: 54.56%; width: 10.59%; height: 10.26%; }
+
+#view1 #select13 { position: absolute; top: 8.33%; left: 66.03%; width: 11.76%; height: 10.26%; }
+
+#view1 #select18 { position: absolute; top: 25.64%; left: 39.41%; width: 10.59%; height: 10.26%; }
+
+#view1 #select19 { position: absolute; top: 25.64%; left: 50.74%; width: 11.32%; height: 10.26%; }
+
+#view1 #input17 { position: absolute; top: 25.64%; left: 62.79%; width: 21.76%; height: 10.26%; }
+
+#view1 #button18 { position: absolute; top: 25.64%; left: 90.59%; width: 4.12%; height: 10.26%; }
+#view1 #button18 {color: #f1f1f1;}
+
+#view1 #label40 { position: absolute; top: 63.75%; left: 36.83%; width: 34.71%; height: 2.08%; }
+
+#view1 #select6 { position: absolute; top: 26.67%; left: 76.70%; width: 18.42%; height: 13.33%; }
+
+#view1 #label44 { position: absolute; top: 24.17%; left: 76.70%; width: 18.42%; height: 2.08%; }
+
+#view1 #button11 { position: absolute; top: 47.50%; left: 79.56%; width: 12.89%; height: 3.33%; }
+
+#view1 #button12 { position: absolute; top: 51.67%; left: 79.47%; width: 12.89%; height: 3.33%; }
+
+#view1 #file1 { position: absolute; top: 25.83%; left: 101.66%; width: 29.47%; height: 5.83%; }
+
+#view1 #image1 { position: absolute; top: 2.40%; left: 76.70%; width: 18.42%; height: 20.83%; }
+
+#view1 #button13 { position: absolute; top: 2.50%; left: 91.44%; width: 3.68%; height: 3.33%; }
+
+#view1 #select7 { position: absolute; top: 5.83%; left: 36.83%; width: 14.73%; height: 3.33%; }
+
+#view1 #select8 { position: absolute; top: 5.83%; left: 53.04%; width: 14.73%; height: 3.33%; }
+
+#view1 #label19 { position: absolute; top: 21.67%; left: 46.96%; width: 17.68%; height: 2.50%; }
+
+#view1 #label9 { position: absolute; top: 0.00%; left: 0.00%; width: 18.42%; height: 2.08%; }
+#view1 #label9 {font-size: 13px; font-weight: bold; text-align: center;}

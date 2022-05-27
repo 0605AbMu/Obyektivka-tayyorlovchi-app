@@ -1,0 +1,47 @@
+﻿
+<transition v-bind:[app.viewTransitionName]="transitionName" v-bind:[app.viewTransitionMode]="transitionMode" v-bind:[app.viewInAnimation]="'animate__animated ' + 'animate__' + inAnimation" v-bind:[app.viewOutAnimation]="'animate__animated ' + 'animate__' +  outAnimation"><div title="Created with Unregistered DecSoft App Builder" id="view1" v-bind:class="['app-view', classes]"><dab-sidebar v-bind="app.sidebar"></dab-sidebar><dab-label v-bind="label1"></dab-label><dab-label v-bind="label2"></dab-label><dab-text-input v-model="input1.value" v-bind="input1"></dab-text-input><dab-label v-bind="label3"></dab-label><dab-text-input v-model="input3.value" v-bind="input3"></dab-text-input><dab-label v-bind="label5"></dab-label><dab-text-input v-model="input5.value" v-bind="input5"></dab-text-input><dab-label v-bind="label6"></dab-label><dab-select-input v-model="select1.value" v-bind="select1"></dab-select-input><dab-select-input v-model="select2.value" v-bind="select2"></dab-select-input><dab-label v-bind="label7"></dab-label><dab-container v-bind="container1"><dab-table v-bind="table2"><template v-slot:header><tr></tr></template><template v-slot:records><tr v-for="(record, index) in table2.data" v-on:click="table2.rowClickHandler($event, record, index)" v-on:dblclick="table2.rowDblClickHandler($event, record, index)" v-bind:data-index="index" v-bind:id="'table2Row' + index" v-bind:class="['table2Row', 'table2Row' + index]"><td>
+{{record.yillar}}
+</td>
+<td>
+{{record.muassasa}}
+</td>
+
+</tr></template></dab-table><dab-number-input v-model="input8.value" v-bind="input8"></dab-number-input><dab-text-input v-model="input9.value" v-bind="input9"></dab-text-input><dab-push-button v-bind="button3"></dab-push-button><dab-push-button v-bind="button4"></dab-push-button><dab-label v-bind="label4"></dab-label><dab-push-button v-bind="button14"></dab-push-button></dab-container><dab-label v-bind="label8"></dab-label><dab-text-input v-model="input2.value" v-bind="input2"></dab-text-input><dab-label v-bind="label10"></dab-label><dab-select-input v-model="select3.value" v-bind="select3"></dab-select-input><dab-label v-bind="label12"></dab-label><dab-text-input v-model="input4.value" v-bind="input4"></dab-text-input><dab-label v-bind="label11"></dab-label><dab-select-input v-model="select4.value" v-bind="select4"></dab-select-input><dab-label v-bind="label13"></dab-label><dab-text-input v-model="input6.value" v-bind="input6"></dab-text-input><dab-label v-bind="label14"></dab-label><dab-container v-bind="container2"><dab-table v-bind="table1"><template v-slot:header><tr></tr></template><template v-slot:records><tr v-for="(record, index) in table1.data" v-on:click="table1.rowClickHandler($event, record, index)" v-on:dblclick="table1.rowDblClickHandler($event, record, index)" v-bind:data-index="index" v-bind:id="'table1Row' + index" v-bind:class="['table1Row', 'table1Row' + index]"><td>
+{{record.yillar}}
+</td>
+<td>
+{{record.mukofot}}
+</td></tr></template></dab-table><dab-number-input v-model="input7.value" v-bind="input7"></dab-number-input><dab-text-input v-model="input10.value" v-bind="input10"></dab-text-input><dab-push-button v-bind="button1"></dab-push-button><dab-push-button v-bind="button2"></dab-push-button><dab-label v-bind="label15"></dab-label><dab-label v-bind="label21"></dab-label><dab-push-button v-bind="button5"></dab-push-button></dab-container><dab-label v-bind="label16"></dab-label><dab-label v-bind="label23"></dab-label><dab-container v-bind="container3"><dab-number-input v-model="input11.value" v-bind="input11"></dab-number-input><dab-number-input v-model="input13.value" v-bind="input13"></dab-number-input><dab-label v-bind="label24"></dab-label><dab-text-input v-model="input14.value" v-bind="input14"></dab-text-input><dab-label v-bind="label25"></dab-label></dab-container><dab-label v-bind="label26"></dab-label><dab-container v-bind="container5"><dab-table v-bind="table4"><template v-slot:header><tr></tr></template><template v-slot:records><tr v-for="(record, index) in table4.data" v-on:click="table4.rowClickHandler($event, record, index)" v-on:dblclick="table4.rowDblClickHandler($event, record, index)" v-bind:data-index="index" v-bind:id="'table4Row' + index" v-bind:class="['table4Row', 'table4Row' + index]"><td>
+{{record.yildan}}
+</td>
+
+<td>
+{{record.yilgacha}}
+</td>
+
+<td>
+{{record.nomi}}
+</td>
+</tr></template></dab-table><dab-push-button v-bind="button7"></dab-push-button><dab-push-button v-bind="button8"></dab-push-button><dab-label v-bind="label31"></dab-label><dab-label v-bind="label34"></dab-label><dab-text-input v-model="input19.value" v-bind="input19"></dab-text-input><dab-number-input v-model="input20.value" v-bind="input20"></dab-number-input><dab-number-input v-model="input21.value" v-bind="input21"></dab-number-input><dab-push-button v-bind="button16"></dab-push-button></dab-container><dab-label v-bind="label35"></dab-label><dab-container v-bind="container6"><dab-table v-bind="table5"><template v-slot:header><tr></tr></template><template v-slot:records><tr v-for="(record, index) in table5.data" v-on:click="table5.rowClickHandler($event, record, index)" v-on:dblclick="table5.rowDblClickHandler($event, record, index)" v-bind:data-index="index" v-bind:id="'table5Row' + index" v-bind:class="['table5Row', 'table5Row' + index]">
+
+<td>
+{{record.qarindoshligi}}
+</td>
+
+<td>
+{{record.fio}}
+</td>
+
+<td>
+{{record.tyili}}, <br>{{record.tjoyi}}
+</td>
+
+<td>
+{{record.ishjoy}},<br> {{record.ishlavozim}}
+</td>
+
+<td>
+{{record.yjoy}}
+</td>
+</tr></template></dab-table><dab-push-button v-bind="button9"></dab-push-button><dab-push-button v-bind="button10"></dab-push-button><dab-label v-bind="label36"></dab-label><dab-text-input v-model="input22.value" v-bind="input22"></dab-text-input><dab-number-input v-model="input24.value" v-bind="input24"></dab-number-input><dab-select-input v-model="select5.value" v-bind="select5"></dab-select-input><dab-text-input v-model="input25.value" v-bind="input25"></dab-text-input><dab-label v-bind="label41"></dab-label><dab-label v-bind="label42"></dab-label><dab-text-input v-model="input27.value" v-bind="input27"></dab-text-input><dab-text-input v-model="input29.value" v-bind="input29"></dab-text-input><dab-label v-bind="label43"></dab-label><dab-select-input v-model="select11.value" v-bind="select11"></dab-select-input><dab-select-input v-model="select13.value" v-bind="select13"></dab-select-input><dab-select-input v-model="select18.value" v-bind="select18"></dab-select-input><dab-select-input v-model="select19.value" v-bind="select19"></dab-select-input><dab-text-input v-model="input17.value" v-bind="input17"></dab-text-input><dab-push-button v-bind="button18"></dab-push-button></dab-container><dab-label v-bind="label40"></dab-label><dab-multi-select-input v-model="select6.value" v-bind="select6"></dab-multi-select-input><dab-label v-bind="label44"></dab-label><dab-push-button v-bind="button11"></dab-push-button><dab-push-button v-bind="button12"></dab-push-button><dab-file-input v-model="file1.value" v-bind="file1"></dab-file-input><dab-image v-bind="image1"></dab-image><dab-push-button v-bind="button13"></dab-push-button><dab-http v-bind="http2"></dab-http><dab-select-input v-model="select7.value" v-bind="select7"></dab-select-input><dab-select-input v-model="select8.value" v-bind="select8"></dab-select-input><dab-http v-bind="http1"></dab-http><dab-label v-bind="label19"></dab-label><dab-label v-bind="label9"></dab-label></div></transition>
+
